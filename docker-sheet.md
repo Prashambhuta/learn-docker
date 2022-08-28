@@ -1,4 +1,4 @@
-# understanding docker.
+# Understanding docker.
 
 ## Understanding how computer systems work.
 
