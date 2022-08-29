@@ -3,9 +3,12 @@
 ## Understanding how computer systems work.
 
 Namespace - used to isolate resources per processes.
+
 Control Group - used to control amount of resources used by the processes.
 
 ## Quick docker commands
+
+### Level 1
 
 |command | What it does |
 |---- | ---- |
@@ -48,7 +51,7 @@ Control Group - used to control amount of resources used by the processes.
 
 ### Example 'docker-compose.yml' file
 ```yml
-version: '3.7'            # version number
+version: '3.7'          # version number
 
 
 services:               # essentially saying container.
@@ -66,7 +69,7 @@ services:               # essentially saying container.
 
 
 
-## Docker Understanding
+## Docker quick definitions
 
 **Alpine** : Alpine base image has all the necessary requirements to run docker systems, just like Ubuntu, MacOS etc.\
 
@@ -88,6 +91,9 @@ Notes:
 ## Dockerfile settings
 
 **COPY** : Copy files from localhost to container.
+
 **CMD** : Run the commmand after the container has started.
+
 **WORKDIR** : All commands will be executed relative to this path.
+
 **RUN** : Runs inside the terminal of the container.
