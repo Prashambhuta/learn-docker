@@ -97,3 +97,5 @@ Notes:
 **WORKDIR** : All commands will be executed relative to this path.
 
 **RUN** : Runs inside the terminal of the container.
+
+**EXPOSE** : Expose the port from the container.
