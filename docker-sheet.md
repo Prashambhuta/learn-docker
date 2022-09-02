@@ -64,6 +64,11 @@ services:               # essentially saying container.
         - "4001<localhost-port>:8081<container-port>"  # map port <localhost-port:container-port>
     volumes:
       - 
+      # map ports
+  postgres:
+    build:
+      dockerfile: <Name of the docker file>   # Name of the docker file.
+      context: <path to the docker file>    # path to the dockerfile directory.  
 ```
 
 
