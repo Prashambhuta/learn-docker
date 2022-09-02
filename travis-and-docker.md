@@ -79,21 +79,21 @@ Dockerrrun.aws.json:
 
 ```json
 {
-    "AWSEBDockerrunVersion": '2',      // version of interpretation,
+    "AWSEBDockerrunVersion": "(numveric) version of interpretation",
     "containerDefinitions": [
         {
-            "name": // name of service, could be anything
-            "image": <docker_id>/<container_name> // docker image to use
-            "hostname": // name of host service
-            "essential": true/false // atleast 1 service in json has to be essential.
+            "name": " name of service, could be anything",
+            "image": "<docker_id>/<container_name> // docker image to use",
+            "hostname": "// name of host service",
+            "essential": "true/false // atleast 1 service in json has to be essential.",
             "portMappings": [
                 {
-                    "hostPort": <port_id>,
-                    "containerPort": <port_id>
+                    "hostPort": "<port_id>",
+                    "containerPort": "<port_id>"
                 }
             ],
-            "links": // allows containers to communicate with each other without need for port mapping./
-            "memory": numeric // memory allocation for deployment.
+            "links": "allows containers to communicate with each other without need for port mapping.",
+            "memory": "numeric // memory allocation for deployment."
         }
     ]
 }
